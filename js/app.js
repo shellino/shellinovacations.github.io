@@ -1,1 +1,1 @@
-$(document).ready(function(){$(document).foundation()});//# sourceMappingURL=./app.js.map
+$(document).ready(function(){$(document).foundation({abide:{live_validate:!1}})});//# sourceMappingURL=./app.js.map
