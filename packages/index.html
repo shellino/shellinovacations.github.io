@@ -49,11 +49,12 @@
 
 <body>
 
-    
+    <div class="page-wrapper">
+        
 
-<header id="page-header" class="max-width-panel">
+<header id="page-header">
 
-    <div class="text-right contact-info-panel">
+    <div class="text-right contact-info-panel max-width-panel">
         <div class="inline-block">
             
 <svg class="linea-icons "><use xlink:href="/svg/sprite.symbol.svg#icon-linea-basic-smartphone"></use></svg>
@@ -68,8 +69,8 @@
         </div>
     </div>
 
-    <div>
-        <a href="/">
+    <div class="logo-title-block max-width-panel">
+        <a href="/" class="inline-block">
             <img class="site-logo" src="/img/logo/logo-color.png" alt="Shellino Vacations" />
             <h1 class="site-title">Shellino <br /> Vacations</h1>
         </a>
@@ -82,11 +83,11 @@
             <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
         </ul>
 
-        <section class="top-bar-section">
+        <section class="top-bar-section max-width-panel">
 
             <!-- Left Nav Section -->
             <ul class="left">
-                <li><a href="/packages">Plan your holiday</a></li>
+                <li><a href="/packages" class="first-menu-item">Plan your holiday</a></li>
                 <li><a href="/coming-soon">Travel wiki</a></li>
                 <li><a href="/coming-soon">Blog</a></li>
                 <li><a href="/contact">Contact us</a></li>
@@ -97,191 +98,626 @@
 </header>
 <div class="header-border"></div>
 
-    
-<section>
-    <div class="packages-list">
-    
-        <div class="packages-list-item">
-            <a href="/packages/splendid-kashmir/" class="item-padding" style="background-image: url('/img/packages/kanchanjanga-from-darjeeling-600x375.jpg')">
+        
 
-                <div class="package-list-item-content">
-                    <h3 class="package-title">Splendid Kashmir</h3>
-                    <div class="package-days"></div>
-                </div>
-            </a>
-        </div>
-    
-        <div class="packages-list-item">
-            <a href="/packages/sizzling-manali/" class="item-padding" style="background-image: url('/img/packages/manali-600x375.jpg')">
 
-                <div class="package-list-item-content">
-                    <h3 class="package-title">Sizzling Manali</h3>
-                    <div class="package-days"></div>
-                </div>
-            </a>
-        </div>
-    
-        <div class="packages-list-item">
-            <a href="/packages/heavenly-himachal/" class="item-padding" style="background-image: url('/img/packages/himachal-600x375.jpg')">
+<section class="packages-panel">
 
-                <div class="package-list-item-content">
-                    <h3 class="package-title">Heavenly Himachal</h3>
-                    <div class="package-days"></div>
-                </div>
-            </a>
-        </div>
-    
-        <div class="packages-list-item">
-            <a href="/packages/amritsar-dharamshala-dalhousie-vaishnodevi/" class="item-padding" style="background-image: url('/img/packages/dalhousi-600x338.jpg')">
+    <div class="packages-panel-content clearfix accelerate">
 
-                <div class="package-list-item-content">
-                    <h3 class="package-title">Amritsar Dharamshala Dalhousie Vaishnodevi</h3>
-                    <div class="package-days"></div>
-                </div>
-            </a>
-        </div>
-    
-        <div class="packages-list-item">
-            <a href="/packages/nainital-mussoorie-haridwar-corbett/" class="item-padding" style="background-image: url('/img/packages/nainital-600x375.jpg')">
+        <div id="packages-filter-section" class="packages-filter-section">
 
-                <div class="package-list-item-content">
-                    <h3 class="package-title">Nainital Mussoorie Haridwar Corbett</h3>
-                    <div class="package-days"></div>
-                </div>
-            </a>
-        </div>
-    
-        <div class="packages-list-item">
-            <a href="/packages/rajasthan-marwad/" class="item-padding" style="background-image: url('/img/packages/jaisalmer-600x375.jpg')">
+            <h4 class="filter-heading">Vacation type:</h4>
 
-                <div class="package-list-item-content">
-                    <h3 class="package-title">Rajasthan Marwad</h3>
-                    <div class="package-days"></div>
-                </div>
-            </a>
-        </div>
-    
-        <div class="packages-list-item">
-            <a href="/packages/madhya-pradesh-memories/" class="item-padding" style="background-image: url('/img/packages/khajuraho-mp-600x338.jpg')">
+            <ul class="side-nav filter-categories">
 
-                <div class="package-list-item-content">
-                    <h3 class="package-title">Madhya Pradesh Memories</h3>
-                    <div class="package-days"></div>
-                </div>
-            </a>
-        </div>
+                <li class="filter-item">
+                    
+<div class="checkbox checkbox-blue ">
+    <input type="checkbox" id="filter-group" class="checkbox-input " value="group" checked />
     
-        <div class="packages-list-item">
-            <a href="/packages/chittodgadh-haldighat/" class="item-padding" style="background-image: url('/img/packages/padmini-palace-600x375.jpg')">
+<svg class="linea-icons "><use xlink:href="/svg/sprite.symbol.svg#icon-linea-arrows-checkbox"></use></svg>
 
-                <div class="package-list-item-content">
-                    <h3 class="package-title">Chittodgadh Haldighat</h3>
-                    <div class="package-days"></div>
-                </div>
-            </a>
-        </div>
-    
-        <div class="packages-list-item">
-            <a href="/packages/sikkim-darjeeling/" class="item-padding" style="background-image: url('/img/packages/lord-shankar-at-namchi-600x375.jpg')">
+</div>
 
-                <div class="package-list-item-content">
-                    <h3 class="package-title">Sikkim Darjeeling</h3>
-                    <div class="package-days"></div>
-                </div>
-            </a>
-        </div>
-    
-        <div class="packages-list-item">
-            <a href="/packages/nepal/" class="item-padding" style="background-image: url('/img/packages/durbar-square-nepal-600x388.jpg')">
+                    <label for="filter-group" class="checkbox-label">Group vacations</label>
+                </li>
 
-                <div class="package-list-item-content">
-                    <h3 class="package-title">Mystique Nepal</h3>
-                    <div class="package-days"></div>
-                </div>
-            </a>
-        </div>
+                <li class="filter-item">
+                    
+<div class="checkbox checkbox-blue ">
+    <input type="checkbox" id="filter-adventure" class="checkbox-input " value="adventure"  />
     
-        <div class="packages-list-item">
-            <a href="/packages/gujarat-mount-abu/" class="item-padding" style="background-image: url('/img/packages/gujrat-600x338.jpg')">
+<svg class="linea-icons "><use xlink:href="/svg/sprite.symbol.svg#icon-linea-arrows-checkbox"></use></svg>
 
-                <div class="package-list-item-content">
-                    <h3 class="package-title">Gujarat - Mount Abu</h3>
-                    <div class="package-days"></div>
-                </div>
-            </a>
-        </div>
-    
-        <div class="packages-list-item">
-            <a href="/packages/genuine-goa/" class="item-padding" style="background-image: url('/img/packages/sunburn-goa-600x338.jpg')">
+</div>
 
-                <div class="package-list-item-content">
-                    <h3 class="package-title">Genuine Goa</h3>
-                    <div class="package-days"></div>
-                </div>
-            </a>
-        </div>
-    
-        <div class="packages-list-item">
-            <a href="/packages/amazing-andhra/" class="item-padding" style="background-image: url('/img/packages/golkonda-fort-andhra-600x375.jpg')">
+                    <label for="filter-adventure" class="checkbox-label">Adventure vacations</label>
+                </li>
 
-                <div class="package-list-item-content">
-                    <h3 class="package-title">Amazing Andhra</h3>
-                    <div class="package-days"></div>
-                </div>
-            </a>
-        </div>
+                <li class="filter-item">
+                    
+<div class="checkbox checkbox-blue ">
+    <input type="checkbox" id="filter-honeymoon" class="checkbox-input " value="honeymoon"  />
     
-        <div class="packages-list-item">
-            <a href="/packages/vishakhapatnam/" class="item-padding" style="background-image: url('/img/packages/kambalakonda-santuary-vishakhapatnam-600x375.jpg')">
+<svg class="linea-icons "><use xlink:href="/svg/sprite.symbol.svg#icon-linea-arrows-checkbox"></use></svg>
 
-                <div class="package-list-item-content">
-                    <h3 class="package-title">Vishakhapatnam</h3>
-                    <div class="package-days"></div>
-                </div>
-            </a>
-        </div>
-    
-        <div class="packages-list-item">
-            <a href="/packages/karnataka-jewels/" class="item-padding" style="background-image: url('/img/packages/mysore-palace-600x338.jpg')">
+</div>
 
-                <div class="package-list-item-content">
-                    <h3 class="package-title">Karnataka Jewels</h3>
-                    <div class="package-days"></div>
-                </div>
-            </a>
-        </div>
-    
-        <div class="packages-list-item">
-            <a href="/packages/dazzling-kerala/" class="item-padding" style="background-image: url('/img/packages/kerala-houseboat-600x338.jpg')">
+                    <label for="filter-honeymoon" class="checkbox-label">Honeymoon vacations</label>
+                </li>
 
-                <div class="package-list-item-content">
-                    <h3 class="package-title">Dazzling Kerala</h3>
-                    <div class="package-days"></div>
-                </div>
-            </a>
-        </div>
+                <li class="filter-item">
+                    
+<div class="checkbox checkbox-blue ">
+    <input type="checkbox" id="filter-pilgrimage" class="checkbox-input " value="pilgrimage"  />
     
-        <div class="packages-list-item">
-            <a href="/packages/crown-of-islands-andaman/" class="item-padding" style="background-image: url('/img/packages/andaman-600x338.jpg')">
+<svg class="linea-icons "><use xlink:href="/svg/sprite.symbol.svg#icon-linea-arrows-checkbox"></use></svg>
 
-                <div class="package-list-item-content">
-                    <h3 class="package-title">Crown of Islands - Andaman</h3>
-                    <div class="package-days"></div>
-                </div>
-            </a>
-        </div>
+</div>
+
+                    <label for="filter-pilgrimage" class="checkbox-label">Pilgrimage vacations</label>
+                </li>
+
+                <li class="filter-item">
+                    
+<div class="checkbox checkbox-blue ">
+    <input type="checkbox" id="filter-wildlife" class="checkbox-input " value="wildlife"  />
     
+<svg class="linea-icons "><use xlink:href="/svg/sprite.symbol.svg#icon-linea-arrows-checkbox"></use></svg>
+
+</div>
+
+                    <label for="filter-wildlife" class="checkbox-label">Wildlife vacations</label>
+                </li>
+
+                <li class="filter-item">
+                    
+<div class="checkbox checkbox-blue ">
+    <input type="checkbox" id="filter-women" class="checkbox-input " value="women"  />
+    
+<svg class="linea-icons "><use xlink:href="/svg/sprite.symbol.svg#icon-linea-arrows-checkbox"></use></svg>
+
+</div>
+
+                    <label for="filter-women" class="checkbox-label">Women's special</label>
+                </li>
+            </ul>
+
+            <h4 class="filter-heading">Where:</h4>
+
+            <ul class="side-nav filter-categories">
+
+                <li class="filter-item">
+                    
+<div class="checkbox checkbox-blue ">
+    <input type="checkbox" id="filter-north-india" class="checkbox-input " value="north-india"  />
+    
+<svg class="linea-icons "><use xlink:href="/svg/sprite.symbol.svg#icon-linea-arrows-checkbox"></use></svg>
+
+</div>
+
+                    <label for="filter-north-india" class="checkbox-label">North India</label>
+                </li>
+
+                <li class="filter-item">
+                    
+<div class="checkbox checkbox-blue ">
+    <input type="checkbox" id="filter-south-india" class="checkbox-input " value="south-india"  />
+    
+<svg class="linea-icons "><use xlink:href="/svg/sprite.symbol.svg#icon-linea-arrows-checkbox"></use></svg>
+
+</div>
+
+                    <label for="filter-south-india" class="checkbox-label">South India</label>
+                </li>
+
+                <li class="filter-item">
+                    
+<div class="checkbox checkbox-blue ">
+    <input type="checkbox" id="filter-east-india" class="checkbox-input " value="east-india"  />
+    
+<svg class="linea-icons "><use xlink:href="/svg/sprite.symbol.svg#icon-linea-arrows-checkbox"></use></svg>
+
+</div>
+
+                    <label for="filter-east-india" class="checkbox-label">East India</label>
+                </li>
+
+                <li class="filter-item">
+                    
+<div class="checkbox checkbox-blue ">
+    <input type="checkbox" id="filter-west-india" class="checkbox-input " value="west-india"  />
+    
+<svg class="linea-icons "><use xlink:href="/svg/sprite.symbol.svg#icon-linea-arrows-checkbox"></use></svg>
+
+</div>
+
+                    <label for="filter-west-india" class="checkbox-label">West India</label>
+                </li>
+
+                <li class="filter-item">
+                    
+<div class="checkbox checkbox-blue ">
+    <input type="checkbox" id="filter-north-east-india" class="checkbox-input " value="north-east-india"  />
+    
+<svg class="linea-icons "><use xlink:href="/svg/sprite.symbol.svg#icon-linea-arrows-checkbox"></use></svg>
+
+</div>
+
+                    <label for="filter-north-east-india" class="checkbox-label">North East India</label>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="packages-list-section">
+
+            <ul class="breadcrumbs filter-selection-status-panel"></ul>
+
+            <div class="packages-list">
+                
+                <div class="packages-list-item" data-filter-categories="group,north-india" style="display: none">
+                    <a href="/packages/splendid-kashmir/" class="item-padding" style="background-image: url('/img/packages/kanchanjanga-from-darjeeling-600x375.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Splendid Kashmir</h3>
+                            <div class="package-days">7 days / 6 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="group,north-india" style="display: none">
+                    <a href="/packages/sizzling-manali/" class="item-padding" style="background-image: url('/img/packages/manali-600x375.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Sizzling Manali</h3>
+                            <div class="package-days">6 days / 5 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="group,north-india" style="display: none">
+                    <a href="/packages/heavenly-himachal/" class="item-padding" style="background-image: url('/img/packages/himachal-600x375.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Heavenly Himachal</h3>
+                            <div class="package-days">8 days / 7 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="group,north-india" style="display: none">
+                    <a href="/packages/amritsar-dharamshala-dalhousie-vaishnodevi/" class="item-padding" style="background-image: url('/img/packages/dalhousi-600x338.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Amritsar Dharamshala Dalhousie Vaishnodevi</h3>
+                            <div class="package-days">9 days / 8 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="group,north-india" style="display: none">
+                    <a href="/packages/nainital-mussoorie-haridwar-corbett/" class="item-padding" style="background-image: url('/img/packages/nainital-600x375.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Nainital Mussoorie Haridwar Corbett</h3>
+                            <div class="package-days">9 days / 8 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="group,west-india" style="display: none">
+                    <a href="/packages/rajasthan-marwad/" class="item-padding" style="background-image: url('/img/packages/jaisalmer-600x375.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Rajasthan Marwad</h3>
+                            <div class="package-days">8 days / 7 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="group,west-india" style="display: none">
+                    <a href="/packages/chittodgadh-haldighat/" class="item-padding" style="background-image: url('/img/packages/padmini-palace-600x375.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Chittodgadh Haldighat</h3>
+                            <div class="package-days">5 days / 4 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="group,west-india" style="display: none">
+                    <a href="/packages/madhya-pradesh-memories/" class="item-padding" style="background-image: url('/img/packages/khajuraho-mp-600x338.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Madhya Pradesh Memories</h3>
+                            <div class="package-days">4 days / 3 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="group,north-east-india" style="display: none">
+                    <a href="/packages/sikkim-darjeeling/" class="item-padding" style="background-image: url('/img/packages/lord-shankar-at-namchi-600x375.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Sikkim Darjeeling</h3>
+                            <div class="package-days">9 days / 8 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="group" style="display: none">
+                    <a href="/packages/nepal/" class="item-padding" style="background-image: url('/img/packages/durbar-square-nepal-600x388.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Mystique Nepal</h3>
+                            <div class="package-days">6 days / 5 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="group,west-india" style="display: none">
+                    <a href="/packages/gujarat-mount-abu/" class="item-padding" style="background-image: url('/img/packages/gujrat-600x338.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Gujarat - Mount Abu</h3>
+                            <div class="package-days">3 days / 2 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="group,west-india" style="display: none">
+                    <a href="/packages/genuine-goa/" class="item-padding" style="background-image: url('/img/packages/sunburn-goa-600x338.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Genuine Goa</h3>
+                            <div class="package-days">4 days / 3 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="group,south-india" style="display: none">
+                    <a href="/packages/amazing-andhra/" class="item-padding" style="background-image: url('/img/packages/golkonda-fort-andhra-600x375.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Amazing Andhra</h3>
+                            <div class="package-days">3 days / 2 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="group,south-india" style="display: none">
+                    <a href="/packages/vishakhapatnam/" class="item-padding" style="background-image: url('/img/packages/kambalakonda-santuary-vishakhapatnam-600x375.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Vishakhapatnam</h3>
+                            <div class="package-days">3 days / 2 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="group,south-india" style="display: none">
+                    <a href="/packages/karnataka-jewels/" class="item-padding" style="background-image: url('/img/packages/mysore-palace-600x338.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Karnataka Jewels</h3>
+                            <div class="package-days">6 days / 5 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="group,south-india" style="display: none">
+                    <a href="/packages/dazzling-kerala/" class="item-padding" style="background-image: url('/img/packages/kerala-houseboat-600x338.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Dazzling Kerala</h3>
+                            <div class="package-days">8 days / 7 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="group" style="display: none">
+                    <a href="/packages/crown-of-islands-andaman/" class="item-padding" style="background-image: url('/img/packages/andaman-600x338.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Crown of Islands - Andaman</h3>
+                            <div class="package-days">7 days / 6 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="adventure,north-india" style="display: none">
+                    <a href="/packages/best-of-ladakh/" class="item-padding" style="background-image: url('/img/packages/best-of-ladakh-600x338.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Best of Ladakh</h3>
+                            <div class="package-days">8 days / 7 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="adventure,north-india" style="display: none">
+                    <a href="/packages/ladakh-bullet-expedition/" class="item-padding" style="background-image: url('/img/packages/ladakh-bullet-600x338.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Ladakh Bullet Expedition</h3>
+                            <div class="package-days">10 days / 9 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="adventure,north-india" style="display: none">
+                    <a href="/packages/valley-of-flowers/" class="item-padding" style="background-image: url('/img/packages/valley-of-flowers-600x338.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Valley of Flowers</h3>
+                            <div class="package-days">7 days / 6 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="honeymoon,north-india" style="display: none">
+                    <a href="/packages/romantic-manali/" class="item-padding" style="background-image: url('/img/packages/romantic-manali-600x375.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Romantic Manali</h3>
+                            <div class="package-days">6 days / 5 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="honeymoon,north-india" style="display: none">
+                    <a href="/packages/honeymoon-special-shimla-manali/" class="item-padding" style="background-image: url('/img/packages/shimla-square-600x375.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Honeymoon Special Shimla Manali</h3>
+                            <div class="package-days">8 days / 7 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="honeymoon,south-india" style="display: none">
+                    <a href="/packages/honeymoon-special-ooty-kodai/" class="item-padding" style="background-image: url('/img/packages/ooty-600x375.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Honeymoon Special Ooty Kodai</h3>
+                            <div class="package-days">7 days / 6 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="honeymoon,south-india" style="display: none">
+                    <a href="/packages/honeymoon-special-kerala/" class="item-padding" style="background-image: url('/img/packages/kearala-beach-600x375.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Honeymoon Special Kerala</h3>
+                            <div class="package-days">7 days / 6 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="pilgrimage,north-india" style="display: none">
+                    <a href="/packages/kailash-manasarovar-yatra/" class="item-padding" style="background-image: url('/img/packages/kailas-mansarovar-600x338.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Kailash Manasarovar Yatra</h3>
+                            <div class="package-days">13 days / 12 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="pilgrimage,north-india" style="display: none">
+                    <a href="/packages/kashmir-amarnath-vaishnodevi/" class="item-padding" style="background-image: url('/img/packages/vaishno-devi-600x375.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Kashmir Amarnath Vaishnodevi</h3>
+                            <div class="package-days">9 days / 8 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="pilgrimage,east-india" style="display: none">
+                    <a href="/packages/jagannath-puri-kolkata-gangasagar/" class="item-padding" style="background-image: url('/img/packages/konark-temple-600x375.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Jagannath Puri Kolkata Gangasagar</h3>
+                            <div class="package-days">8 days / 7 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="pilgrimage" style="display: none">
+                    <a href="/packages/traditional-chardham-yatra/" class="item-padding" style="background-image: url('/img/packages/badrinath-600x338.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Traditional Chardham Yatra</h3>
+                            <div class="package-days">16 days / 15 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="pilgrimage,north-india" style="display: none">
+                    <a href="/packages/jyotirlinga-darshan/" class="item-padding" style="background-image: url('/img/packages/omkareswar-600x338.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">M.P. Jyotirlinga Darshan</h3>
+                            <div class="package-days">4 days / 3 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="pilgrimage,west-india" style="display: none">
+                    <a href="/packages/maharashtra-jyotirlinga-with-shirdi/" class="item-padding" style="background-image: url('/img/packages/shirdi-sikkim-600x375.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Maharashtra Jyotirlinga with Shirdi</h3>
+                            <div class="package-days">6 days / 5 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="pilgrimage,west-india" style="display: none">
+                    <a href="/packages/ashtavinayak-yatra-with-jejuri/" class="item-padding" style="background-image: url('/img/packages/jejuri-temple-600x375.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Ashtavinayak Yatra with Jejuri</h3>
+                            <div class="package-days">3 days / 2 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="pilgrimage,south-india" style="display: none">
+                    <a href="/packages/hyderabad-srisailam-with-tirupati-darshan/" class="item-padding" style="background-image: url('/img/packages/golkonda-600x375.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Hyderabad Srisailam with Nights Tirupati Darshan</h3>
+                            <div class="package-days">8 days / 7 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="pilgrimage,south-india" style="display: none">
+                    <a href="/packages/madurai-rameshwaram-kanyakumari/" class="item-padding" style="background-image: url('/img/packages/kanyakumari-600x375.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Madurai Rameshwaram Kanyakumari</h3>
+                            <div class="package-days">5 days / 4 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="wildlife,north-india" style="display: none">
+                    <a href="/packages/corbette-national-park/" class="item-padding" style="background-image: url('/img/packages/corbette-nation-park-600x338.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Corbette National Park</h3>
+                            <div class="package-days">5 days / 4 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="wildlife,west-india" style="display: none">
+                    <a href="/packages/ranthambhore-national-park/" class="item-padding" style="background-image: url('/img/packages/ranthambore-national-park-600x375.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Ranthambhore National Park</h3>
+                            <div class="package-days">4 days / 3 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="wildlife,west-india" style="display: none">
+                    <a href="/packages/kanha-national-park/" class="item-padding" style="background-image: url('/img/packages/kanha-nation-park-600x375.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Kanha National Park</h3>
+                            <div class="package-days">4 days / 3 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="wildlife,east-india" style="display: none">
+                    <a href="/packages/bandhavgarh-national-park/" class="item-padding" style="background-image: url('/img/packages/bandhavgarh-national-park-600x375.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Bandhavgarh National Park</h3>
+                            <div class="package-days">4 days / 3 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="wildlife,west-india" style="display: none">
+                    <a href="/packages/amboli-wildlife-sanctuary/" class="item-padding" style="background-image: url('/img/packages/amboli-600x338.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Amboli Wildlife Sanctuary</h3>
+                            <div class="package-days">3 days / 2 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="wildlife,west-india" style="display: none">
+                    <a href="/packages/tadoba-national-park/" class="item-padding" style="background-image: url('/img/packages/tadoba-tiger-cub-600x338.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Tadoba National Park</h3>
+                            <div class="package-days">4 days / 3 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="wildlife,west-india" style="display: none">
+                    <a href="/packages/nagzira-wildlife-sactuary/" class="item-padding" style="background-image: url('/img/packages/nagzira-600x375.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Nagzira wildlife Sactuary</h3>
+                            <div class="package-days">4 days / 3 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="women,north-india" style="display: none">
+                    <a href="/packages/womens-special-heavenly-himachal/" class="item-padding" style="background-image: url('/img/packages/rohtang-pass-snow-600x375.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Women&#39;s Special Heavenly Himachal</h3>
+                            <div class="package-days">8 days / 7 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="women,north-india" style="display: none">
+                    <a href="/packages/womens-special-kashmir-vaishnodevi/" class="item-padding" style="background-image: url('/img/packages/dal-lake-600x375.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Women&#39;s Special Kashmir Vaishnodevi</h3>
+                            <div class="package-days">9 days / 8 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="packages-list-item" data-filter-categories="women,west-india" style="display: none">
+                    <a href="/packages/womens-special-genuine-goa/" class="item-padding" style="background-image: url('/img/packages/goa-church-600x375.jpg')">
+
+                        <div class="package-list-item-content">
+                            <h3 class="package-title">Women&#39;s Special Genuine Goa</h3>
+                            <div class="package-days">4 days / 3 nights</div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+
+
     </div>
+
+    <div>
+        <div class="filter-panel-button-wrapper hide-button-wrapper">
+            
+<svg class="linea-icons filter-panel-button hide-filter-button"><use xlink:href="/svg/sprite.symbol.svg#icon-linea-arrows-left-double"></use></svg>
+
+        </div>
+
+        <div class="filter-panel-button-wrapper show-button-wrapper">
+            
+<svg class="linea-icons filter-panel-button show-filter-button"><use xlink:href="/svg/sprite.symbol.svg#icon-linea-arrows-right-double"></use></svg>
+
+        </div>
+    </div>
+
 </section>
 
 
+
+    </div>
 
     <footer id="page-footer">
     <div class="copyright-notice max-width-panel">
         &copy; Shellino Vacations. All rights reserved.
     </div>
 </footer>
-
     <!-- Common JS bundle go here - bundle.js -->
     <script type="text/javascript" src="/js/bundle.js"></script>
 
@@ -289,6 +725,8 @@
 <!--<script type="text/javascript" src="/js/topPages.js"></script>-->
 
 
+    
+    <script type="text/javascript" src="packages.js"></script>
     
 
 </body>
